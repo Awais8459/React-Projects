@@ -11,7 +11,7 @@ export default function Navbar() {
   const handleSearch = (event) => {
     event.preventDefault();
     axios
-      .get(`http://www.omdbapi.com/?t=${searchValue}&apikey=3d71d68e`)
+      .get(`https://www.omdbapi.com/?t=${searchValue}&apikey=3d71d68e`)
       .then((response) => {
         setMovieData(response.data);
       })
