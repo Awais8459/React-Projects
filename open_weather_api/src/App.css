@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #0077cc;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.card{
+  margin-left: 35px;
+  width: 18rem;
+}
+.card-title{
+  color: black;
+}
+.bg-image{
+  background-image: url('https://thumbs.dreamstime.com/b/realistic-transparency-sun-clouds-weather-icons-set-business-presentations-tv-forecast-print-web-designs-vector-75917012.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
