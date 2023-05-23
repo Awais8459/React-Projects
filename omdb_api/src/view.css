@@ -1,0 +1,52 @@
+.flex {
+    display: flex;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .transition {
+    transition-property: all;
+    transition-duration: 0.3s;
+  }
+  
+  .hover\:shadow-xl:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .vertical-text {
+    writing-mode: vertical-rl;
+  }
+  
+  .text-xs {
+    font-size: 0.75rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text-gray-900 {
+    color: #1f2937;
+  }
+  
+  .w-px {
+    width: 1px;
+  }
+  
+  .bg-gray-900\/10 {
+    background:powderblue
+}
