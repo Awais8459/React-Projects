@@ -54,9 +54,6 @@ To get started with any of these projects, follow the instructions below:
 
 I welcome contributions to enhance any of these projects. If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request. Please make sure to follow the existing coding style and guidelines.
 
-## License
-
-These projects are licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for personal or commercial purposes.
 
 ## Acknowledgments
 
@@ -64,6 +61,6 @@ I would like to express my gratitude to the developers of the various libraries 
 
 ## Contact
 
-If you have any questions or suggestions regarding these projects, please feel free to reach out to me via email at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions regarding these projects, please feel free to reach out to me via email at awaisfarooq010@gmail.com
 
 Thank you for visiting my repository and I hope you find these projects helpful and enjoyable!
