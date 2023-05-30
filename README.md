@@ -35,6 +35,25 @@ To run the Weather App locally, please follow these steps:
 5. Start the development server by running `npm start`.
 6. Open your browser and visit `http://localhost:3000` to access the app.
 
+## CRUD Task To-Do App
+
+This repository contains a CRUD Task To-Do application built with Node.js, Express.js, React.js, and MongoDB. The application allows users to create, read, update, and delete tasks efficiently. 
+
+To set up the backend:
+1. Install Node.js and MongoDB on your system.
+2. Clone the repository and navigate to the backend directory.
+3. Install the dependencies using npm.
+4. Configure the MongoDB connection in the `config.js` file.
+5. Run the server using the command `npm start`.
+
+To set up the frontend:
+1. Navigate to the frontend directory.
+2. Install the dependencies using npm.
+3. Configure the API endpoint in the `config.js` file.
+4. Run the frontend using the command `npm start`.
+
+This CRUD Task To-Do App provides a user-friendly interface and effective task management capabilities. Use this project as a starting point and customize it according to your specific requirements.
+
 Please note that for the Weather App, you may need to create a `.env` file and provide the necessary API key from OpenWeather. However, in this repository, the `.env` file has not been included.
 
 Feel free to explore the source code of each application, modify them, and use them as learning resources. If you have any questions or feedback, please don't hesitate to reach out. Enjoy!
