@@ -1,71 +1,82 @@
-/* Page.css */
+/* App.css */
 
-.App {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  .form-container {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: #666;
-  }
-  
-  input[type='text'] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 8px 16px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin: 0.5px;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-  }
-  
-  .update-button {
-    background-color: #3498db;
-  }
-  
-  .delete-button {
-    background-color: #e74c3c;
-  }
-  
-  .card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-  }
-  
-  .card h3 {
-    color: #333;
-    margin-top: 0;
-  }
-  
-  .card p {
-    color: #666;
-    margin-bottom: 5px;
-  }
-  
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+}
+
+.todo-info {
+  margin-bottom: 10px;
+}
+
+.todo-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.todo-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.todo-actions button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.add-todo input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-todo button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete-confirmation {
+  margin-top: 10px;
+}
+
+.delete-confirmation p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.delete-confirmation button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
