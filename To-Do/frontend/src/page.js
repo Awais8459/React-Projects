@@ -100,7 +100,7 @@ const Page = () => {
   };
 
   return (
-    <div>
+    <div >
       <div className="add-todo">
         <input
           type="text"
